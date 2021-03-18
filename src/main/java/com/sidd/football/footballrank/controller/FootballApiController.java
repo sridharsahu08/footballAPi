@@ -43,11 +43,4 @@ public class FootballApiController {
 		}
 	}
 	
-	@GetMapping(value="/footballApiTest")
-	public ResponseEntity<?> getFootBaallApiResponse() {
-		
-
-			return ResponseEntity.ok("test");
-
-	}
 }
