@@ -23,6 +23,8 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	    testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
+ 
 }
 
 
